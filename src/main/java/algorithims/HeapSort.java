@@ -64,7 +64,7 @@ public class HeapSort {
         printArray(data);
     }
 
-    // Метод для вывода масссива
+    // Метод для вывода массива
     private static void printArray(int[] arr) {
         for (int value : arr) {
             System.out.print(value + " ");
