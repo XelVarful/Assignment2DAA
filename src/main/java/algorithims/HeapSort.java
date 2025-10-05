@@ -37,7 +37,7 @@ public class HeapSort {
             largest = right;
         }
 
-        // Если наибольший не корень — меняем и продолжаем heapify
+        // Если наибольший не корень  меняем и продолжаем heapify
         if (largest != i) {
             swap(arr, i, largest);
             heapify(arr, n, largest);
